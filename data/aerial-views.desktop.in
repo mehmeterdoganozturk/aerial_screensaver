@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Name=Aerial Views
+Comment=macOS tarzı Apple Aerial canlı video ekran koruyucusu
+Exec=/usr/bin/python3 @DEST@/aerial_linux/player.py
+Icon=aerial-views
+Terminal=false
+Categories=Utility;Screensaver;
+Keywords=aerial;screensaver;ekran koruyucu;apple;video;macos;
+StartupNotify=false
+Actions=preview;
+
+[Desktop Action preview]
+Name=Pencerede önizle
+Exec=/usr/bin/python3 @DEST@/aerial_linux/player.py --preview

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Aerial Views Ayarları
+Comment=Aerial Views ekran koruyucu ayarları
+Exec=/usr/bin/python3 @DEST@/aerial_linux/settings.py
+Icon=aerial-views
+Terminal=false
+Categories=Settings;Utility;
+Keywords=aerial;screensaver;ekran koruyucu;ayarlar;

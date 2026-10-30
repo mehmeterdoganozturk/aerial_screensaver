@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2027"/>
+      <stop offset="50%" stop-color="#203A43"/>
+      <stop offset="100%" stop-color="#2C5364"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4CA1AF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C4E0E5" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="116" height="116" rx="26" fill="url(#skyGrad)"/>
+  <circle cx="64" cy="64" r="38" fill="none" stroke="url(#glowGrad)" stroke-width="2"/>
+  <ellipse cx="64" cy="64" rx="38" ry="16" fill="none" stroke="url(#glowGrad)" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <path d="M 28 84 Q 50 56 64 68 T 100 84 Z" fill="rgba(255, 255, 255, 0.15)"/>
+  <circle cx="64" cy="48" r="6" fill="#00D2FF"/>
+</svg>
