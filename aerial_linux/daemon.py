@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+#
+# Copyright (c) 2026 Mehmet Erdoğan Öztürk <mehmeterdoganozturk@gmail.com>
+# Licensed under the MIT License. See LICENSE in the project root for details.
+#
 """Aerial ekran koruyucu servisi (GNOME / Wayland).
 
 Mutter'ın `org.gnome.Mutter.IdleMonitor` D-Bus arayüzünü kullanarak kullanıcının
